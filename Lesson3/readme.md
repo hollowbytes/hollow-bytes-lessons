@@ -3,9 +3,9 @@ C# is a statically typed language, that means [variables](https://learn.microsof
 Other languages like python or javascript are dynamically typed languages.
 This means types are inferred at runtime based on context. This is when you see those funky javascript questions of '5' + 5 results in the string '55' and not the number 55. The interpreter sees the first variable is a string and the operator is a + so it performs string concatenation regardless of the next variable. This is very confusing to both new and seasoned developers so all dynamically languages end up getting type hint support.
 
-In C# you have a wide variety [built in types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types) which are broken into two categories: [value types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types) and [reference types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types)  
+In C# you have a wide variety [built in types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types) which are broken into two categories: [value types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types) and [reference types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types).  
 
-A value type is normally a very basic type (int, bool, char, etc...NOT STRING) whereas a reference type can be your typical class
+A value type is normally a very basic type (int, bool, char, etc...NOT STRING) whereas a reference type can be your typical class.
 
 ### Creation
 A variable can be Creation by defining its type and its name and optionally a value. Value types all have a default value of some sort, for example an int defaults to 0. Whereas reference types default to null.
@@ -38,8 +38,7 @@ Object? test;
 
 Alternatively, compilers have become smart over the years. If the right hand side of the variable is assigned a value, the compiler can determine the type on its own, in which-case you can use var. Using var is preferred when possible.
 
-###
-##### A variable without an explicit type is assumed an integer due to the value 0
+#### A variable without an explicit type is assumed an integer due to the value 0
 ```
 var test = 0;
 ```
@@ -55,7 +54,7 @@ var test = new Object();
 ```
 
 ### Assignment/Reassignment
-You can also assign variables to other variables to perform calculation, or reassign variables to update their values
+You can also assign variables to other variables to perform calculation, or reassign variables to update their values.
 
 #### Assigning a variable to another variable and performing arithmetic
 ```
