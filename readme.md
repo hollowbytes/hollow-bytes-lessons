@@ -4,7 +4,7 @@
     * *Visual Studio* is commonly used in pure .NET shops and is good to get under your belt
   * [Jetbrains Rider](https://www.jetbrains.com/rider/download/#section=windows)
     * *Rider* is commonly used in environments with multiple languages since Jetbrains offers a variety of IDEs for languages (WebStorm, PyCharm, GoLand)
-  * *[Visual Studio Code](https://code.visualstudio.com/)* is not a true IDE and is more of a text editor on steroids
+  * *[Visual Studio Code](https://code.visualstudio.com/)* is not a true IDE and is more of a text editor on steroids. It's a worthy mention since it's popular, but I'd avoid it.
 
 ### SDKS
 You shouldn't need to download any SDKs yourself, your IDE typically manages them in a virtual environment. This makes it easier to swap between different projects that use different versioning. [.NET SDKS](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) follow a pattern where even numbers are long term support and odd numbers are short term support.
