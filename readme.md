@@ -15,4 +15,4 @@ You shouldn't need to download any SDKs yourself, your IDE typically manages the
 Any IDE you install will already have git but its good to have this installed globally. Having it installed allows you to quickly clone repos without having to open an IDE.
 
 ### GitHub
-Create a [GitHub](https://github.com/) account if you don't already have one.
+Create a [GitHub](https://github.com/) account if you don't already have one. Next go to the [lessons repo](https://github.com/hollowbytes/hollow-bytes-lessons) and fork it to your own account. Forking will allow you to make your own changes without affecting the source repository, but still allow you to get updates.
