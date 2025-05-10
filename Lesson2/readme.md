@@ -9,15 +9,17 @@ You will notice a few new things in this class:
 * [Static](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/static)
 
 *Namespaces* are commonly used to organize modules or features of code, they typically match your projects folder structure. 
-The project you're working in will contain a root namespace everything in that project stems from.   
 
-*Access modifiers* are used to help guide developers what is accessible to others or not from outside different [scopes](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers#summary-table).  
+The project you're working in will contain a root namespace everything in that project stems from.  
+
+*Access modifiers* are used to help guide developers what is accessible to others or not from outside different [scopes](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers#summary-table).
 
 *Classes* are you bread and butter. They'll contain your properties, fields, constructors, methods, etc...  
 
 *Methods* are your units that encapsulate behavior, these are what you call for your program to do something  
 
-*Static* is a keyword that should be used lightly. Something that is static has a single instance for the life of the application. It does not need to be instantiated.
+*Static* is a keyword that should be used lightly. Something that is static has a single instance for the life of the application. It does not need to be instantiated.  
+
 
 ## Interview questions
 You will most likely be asked about access modifiers, the pros and cons to static, and what a class and method are used for.
