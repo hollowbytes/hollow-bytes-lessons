@@ -1,15 +1,14 @@
 ## C# Program Structure
 C# is organized into three main components: 
-[Solutions](https://learn.microsoft.com/en-us/visualstudio/ide/solutions-and-projects-in-visual-studio?view=vs-2022#solutions) (*.sln), 
-[projects](https://learn.microsoft.com/en-us/visualstudio/ide/solutions-and-projects-in-visual-studio?view=vs-2022#projects) (*.csproj),
-and [csharp files](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/) (*.cs)  
-* Repositories ([Github](https://github.com/)) typically have 1 solution, however a monorepo could have many  
-* Solutions typically have many projects  
-* Projects typically have many csharp files 
+* [Solutions](https://learn.microsoft.com/en-us/visualstudio/ide/solutions-and-projects-in-visual-studio?view=vs-2022#solutions) (*.sln)
+* [projects](https://learn.microsoft.com/en-us/visualstudio/ide/solutions-and-projects-in-visual-studio?view=vs-2022#projects) (*.csproj),
+* [csharp files](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/) (*.cs)  
 
-Your *solution* files keep track of your project structure and build information.  
-Your *project* files keep class of dependencies and more granular build information.  
-Your *csharp* files house the actual code.  
+Your *solution* files keep track of your project structure and build information. Repositories typically have 1 solution, however a monorepo could have many.  
+
+Your *project* files keep class of dependencies and more granular build information. Solutions typically have many projects.   
+
+Your *csharp* files house the actual code. Projects typically have many csharp* files.
 
 ## Program.cs
 The structure of this file is using '[top level statements](https://learn.microsoft.com/en-us/dotnet/csharp/tutorials/top-level-statements)'. 
