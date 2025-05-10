@@ -69,6 +69,10 @@ var x = 10;
 x = 100;
 ```
 
+## [Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names)
+All private variables are to be named [camelCase](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names#camel-case)  
+All public variables are to be named [PascalCase](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names#pascal-case)
+
 ### Interview questions
 Sometimes you are required to take an interactive programming quiz, for example https://coachmatt.io/algo. 
 Other times you might be asked to white board in person [fizzbuzz](https://en.wikipedia.org/wiki/Fizz_buzz)

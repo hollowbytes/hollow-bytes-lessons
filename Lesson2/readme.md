@@ -20,6 +20,8 @@ The project you're working in will contain a root namespace everything in that p
 
 *Static* is a keyword that should be used lightly. Something that is static has a single instance for the life of the application. It does not need to be instantiated.  
 
+## [Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names)
+All classes are to be named [PascalCase](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names#pascal-case)
 
 ## Interview questions
 You will most likely be asked about access modifiers, the pros and cons to static, and what a class and method are used for.
