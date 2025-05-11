@@ -1,16 +1,15 @@
-## Classes
+## 'HelloWorld' Class Implementation
 In lesson one we used a top level statement to execute the code, this lesson will have the fully implemented class [(link)](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/main-command-line). 
 
-You will notice a few new things in this class:
+The goal here is to go for breadth and go into depth in other lessons, the new keywords in this class to take note of are:
 * [Namespaces](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/namespaces)
 * [Access modifiers](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/access-modifiers)
 * [Classes](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/classes)
 * [Methods](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
 * [Static](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/static)
+* [Reference types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types)
 
-*Namespaces* are commonly used to organize modules or features of code, they typically match your projects folder structure. 
-
-The project you're working in will contain a root namespace everything in that project stems from.  
+*Namespaces* are commonly used to organize modules or features of code, they typically match your projects folder structure.  
 
 *Access modifiers* are used to help guide developers what is accessible to others or not from outside different [scopes](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers#summary-table).
 
@@ -21,8 +20,6 @@ The project you're working in will contain a root namespace everything in that p
 *Static* is a keyword that should be used lightly. Something that is static has a single instance for the life of the application. It does not need to be instantiated.  
 
 *Reference Types* a kind of variable in C#
-
-*Arrays* a kind of collection in C#
 
 ## [Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names)
 All classes are to be named [PascalCase](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names#pascal-case)
