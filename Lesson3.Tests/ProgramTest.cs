@@ -1,3 +1,5 @@
+using Shouldly;
+
 namespace Lesson3.Tests;
 
 public class ProgramTest
@@ -16,6 +18,8 @@ public class ProgramTest
         var actual = output.ToString();
 
         // Assert
-        Assert.Contains("Hello World", actual);
+        actual.ShouldContain("Hello World");
+        actual.ShouldNotContain("-1");
+        actual.ShouldEndWith("\r\n\r\n");
     }
 }
