@@ -10,7 +10,7 @@ Your *solution* files keep track of your project structure and build information
 
 Your *project* files keep class of dependencies, such as other projects and [NuGet packages](https://www.nuget.org/), and also more granular build information. Solutions typically have many projects.   
 
-Your *csharp* files house the actual code. Projects typically have many csharp* files.
+Your *csharp* files house the actual code. Projects typically have many csharp files.
 
 ## Program.cs
 Another, albeit, small detail that is overlooked is how this program is actually executed. Like most languages it is expected to have an entry point, but the simpler interpreted languages like python allow you to jump in and program right away!  
