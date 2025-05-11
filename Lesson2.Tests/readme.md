@@ -8,7 +8,7 @@ Tests exist to ensure your code is meeting the requirements. There are several f
 * Automation testing
 * etc..
 
-For the purpose of this lesson we wil be covering unit tests using [xunit](https://xunit.net/), there are a variety of testing frameworks, although they are mostly the same and team preference.   
+For the purpose of this lesson we wil be covering unit tests using [xunit](https://xunit.net/), there are a variety of testing frameworks, although they are mostly the same. The choice of which framework to use is typically team preference.   
 You will notice a project named 'Lesson2.Tests' which has a project reference to 'Lesson2' and has the xunit [nuget](https://www.nuget.org/) packages installed in the csproj file.
 
 ## Test Layout
