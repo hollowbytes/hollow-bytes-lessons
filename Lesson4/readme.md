@@ -27,10 +27,10 @@ When we want to perform an action on a predicate on either it's truthy or falsey
 
 ```
 if (true) {
-Console.WriteLine("Hello World");
+    Console.WriteLine("Hello World");
 } else {
 // This is not written to the console because the statement is false
-Console.WriteLine("Goodbye World");
+    Console.WriteLine("Goodbye World");
 }
 ```
 Take note here, this block is **NOT** the same as the above two disjoint if statements. 
