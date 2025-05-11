@@ -8,7 +8,7 @@ Tests exist to ensure your code is meeting the requirements. There are several f
 * Automation testing
 * etc..
 
-For the purpose of this lesson we wil be covering unit tests using [xunit](https://xunit.net/)
+For the purpose of this lesson we wil be covering unit tests using [xunit](https://xunit.net/), there are a variety of testing frameworks, although they are mostly the same and team preference.   
 You will notice a project named 'Lesson2.Tests' which has a project reference to 'Lesson2' and has the xunit [nuget](https://www.nuget.org/) packages installed in the csproj file.
 
 ## Test Layout
@@ -21,7 +21,7 @@ to help organize their thoughts on how the code should actually function (this t
 To organize the test itself it can be broken apart into 3 parts: Arrange, Act, Assert (AAA)  
 * The arrange section is where you setup your stubs, mocks, or inputs
 * The act section is where you set up your SUT and call the method you're testing
-* The assert section is where you check to see the result of your method happend
+* The assert section is where you check to see the result of your method happened
 
 ## Interview Questions
 An interviewer will be looking for testing philosophies, however those are typically senior questions.  
